@@ -1,0 +1,35 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey"],
+            "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["Goodbye", "Bye", "See you later"],
+            "responses": ["Goodbye! Have a great day.", "See you later!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks"],
+            "responses": ["You're welcome!", "No problem!"]
+        },
+        {
+            "tag": "stock_info",
+            "patterns": ["Tell me about {company}", "What is the current price of {company}?", "Give me some information about {company}"],
+            "responses": ["The current price of {company} is $X", "Here's some information about {company}...", "You're interested in {company}?"]
+        },
+        {
+            "tag": "investment_advice",
+            "patterns": ["Should I buy {company} stock?", "Is {company} a good investment?", "What do you think about investing in {company}?"],
+            "responses": ["It's difficult to say. Investing in {company} depends on various factors such as...", "I'm not a financial advisor, but here are some things to consider when investing in {company}..."]
+        },
+        {
+            "tag": "financial_analysis",
+            "patterns": ["Can you analyze {company}?", "What is the outlook for {company}?", "Provide a financial analysis of {company}"],
+            "responses": ["Sure! Let's analyze {company}...", "The outlook for {company} is...", "Here's a financial analysis of {company}..."]
+        }
+
+    ]
+}
